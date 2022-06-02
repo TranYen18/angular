@@ -1,7 +1,8 @@
+import { SignupComponent } from './page/signup/signup.component';
+import { SigninComponent } from './page/signin/signin.component';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AboutComponent } from './component/about/about.component';
-import { LoginComponent } from './component/login/login.component';
 import { NgModule } from '@angular/core';
 import { ProductDetailComponent } from './component/product-detail/product-detail.component';
 import { ProductFormsComponent } from './component/product-forms/product-forms.component';
@@ -10,7 +11,8 @@ import { LayoutAdminComponent } from './layouts/layout-admin/layout-admin.compon
 
 const routes: Routes = [
   {path:"about", component: AboutComponent},
-  {path:"login", component:LoginComponent},
+  { path: "signin", component: SigninComponent},
+  { path: "signup", component: SignupComponent},
   {path:"test", component:LayoutAdminComponent},
   // {path:"product", component:ProductsComponent},
   // {path:"product/add", component:ProductAddComponent},

@@ -21,6 +21,8 @@ import en from '@angular/common/locales/en';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgZorroAntdModule } from './ng-zorro-antd.module';
 import { IconsProviderModule } from './icons-provider.module';
+import { SigninComponent } from './page/signin/signin.component';
+import { SignupComponent } from './page/signup/signup.component';
 
 registerLocaleData(en);
 
@@ -34,7 +36,9 @@ registerLocaleData(en);
     ProductFormsComponent,
     LoginComponent,
     LayoutAdminComponent,
-    LayoutWebsiteComponent
+    LayoutWebsiteComponent,
+    SigninComponent,
+    SignupComponent
 
   ],
   imports: [

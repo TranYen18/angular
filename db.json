@@ -22,5 +22,13 @@
       "price": "300",
       "id": 5
     }
+  ],
+  "users": [
+    {
+      "email": "tranyen18012001@gmail.com",
+      "password": "$2a$10$pb7vgwXp4Z.TRyCC4nN47.Yubu7MlTYeZRBMo71sxSIdryDIk1REW",
+      "name": "Product C update",
+      "id": 1
+    }
   ]
 }
