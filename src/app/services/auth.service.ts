@@ -3,7 +3,6 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { IUser } from '../model/User';
 
-
 const apiUrl = 'http://localhost:3000';
 
 

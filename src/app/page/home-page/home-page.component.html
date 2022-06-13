@@ -1,0 +1,93 @@
+<section class="information">
+    <div class="container">
+
+        <div class="infomation__content" >
+            <div class="information__info">
+                <h2>
+                    Hi, I am <span>{{ user.name }}</span>,<br>
+                    <span>{{user.position}}</span>
+                </h2>
+            </div>
+            <div class="information__about">
+                <p>
+                    {{user.about}}
+                </p>
+            </div>
+            <div class="information__btn">
+                <a [href]="user.cv" target="_blank" download><button>Download Resume</button></a>
+                
+            </div>
+        </div>
+        
+        <div class="information__img">
+            <img [src]='user.img' alt='Ellipse-1'/>
+        </div>
+    </div>
+</section>
+<section class="rectent_posts">
+    <div class="container">
+        <div class="rectent_posts__row">
+            <div class="row__title">
+                <span>Rectent posts</span>
+            </div>
+            <div class="row__view-all">
+                <a routerLink="blog">View all</a>
+            </div>
+        </div>
+        <div class="rectent_posts__row-item-rectent">
+
+            <div class="item_recent" *ngFor="let post of posts">
+                <div class="item_rectent__title">
+                    <h2>{{ post.title }}</h2>
+                </div>
+                <div class="item_rectent__row-date-category">
+                    <div class="date">
+                        <span>{{ post.createAt }}</span>
+                    </div>
+                    <div class="category">
+                        <span>{{ post.categoryPostId == 1 ? "HTML5" : "NodeJS" }}</span>
+                    </div>
+                </div>
+                <div class="item_rectent__description">
+                    <p>{{post.short_desc}}</p>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+</section>
+<section class="feature_works">
+    <div class="container">
+            <div class="row__title">
+                <span>Featured works</span>
+            </div>
+        <div class="feature_works__row-item-work">
+
+            <div class="item_work" *ngFor="let project of projects">
+                <div class="item_work__img">
+                    <img [src]='project.image' alt='Rectangle-30'/>
+                </div>
+                <div class="item_work__content">
+                    <div class="item_work__title">
+                        <h2>{{ project.name }}</h2>
+                    </div>
+                    <div class="item_work__row-date-category">
+                        <div class="date">
+                         <span>{{ project.createAt }}</span>
+                        </div>
+                        <div class="category">
+                            <a>{{ project.categoryProjectId == 1 ? "HTML5" : "NodeJS" }}</a>
+                        </div>
+                    </div>
+                    <div class="item_work__description">
+                        <p>{{ project.short_desc }}</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
