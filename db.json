@@ -4,13 +4,21 @@
       "id": 1,
       "name": "Product Ab",
       "price": 100,
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       "status": true
     },
     {
       "name": "tranyen",
       "price": 200,
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-      "id": 2
+      "id": 2,
+      "status": true
+    },
+    {
+      "name": "Sản phẩm A",
+      "price": 300,
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "id": 4
     }
   ],
   "users": [
