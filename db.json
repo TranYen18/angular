@@ -7,40 +7,29 @@
       "status": true
     },
     {
-      "id": 2,
-      "name": "Product B",
+      "name": "tranyen",
       "price": 200,
-      "status": false
-    },
-    {
-      "name": "Product C update",
-      "price": "200",
-      "id": 3
-    },
-    {
-      "name": "Product D update",
-      "price": "300",
-      "id": 5
-    },
-    {
-      "name": "aaa",
-      "price": "400",
-      "id": 6
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "id": 2
     }
   ],
   "users": [
     {
-      "email": "tranyen18012001@gmail.com",
-      "password": "$2a$10$pb7vgwXp4Z.TRyCC4nN47.Yubu7MlTYeZRBMo71sxSIdryDIk1REW",
-      "name": "Product C update",
-      "id": 1
+      "email": "admin@gmail.com",
+      "password": "$2a$10$KzuGxgeMC4JV8IQTx9lRfeX1.uZmLFN.7NfrasHh.GqKl7CKNeo6q",
+      "name": "tranyen",
+      "position": "Sinh viên",
+      "about": "TKW",
+      "cv": "",
+      "img": "",
+      "id": 2
     }
   ],
   "posts": [
     {
       "title": "Making a design system from scratch",
       "createAt": "13/6/2022",
-      "categoryPostId": "1",
+      "categoryPostId": "2",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat",
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       "id": 1
@@ -60,12 +49,20 @@
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat",
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       "id": 3
+    },
+    {
+      "title": "Dự án 2",
+      "createAt": "14/6/2022",
+      "categoryPostId": "1",
+      "short_desc": "Bán hàng online",
+      "description": "Hết kinh phí",
+      "id": 4
     }
   ],
   "projects": [
     {
       "name": "Designing Dashboards",
-      "image": "http://res.cloudinary.com/assignmentjs/image/upload/v1655137974/angular/kwrty6i7pornk7s7f2vu.jpg",
+      "image": "https://res.cloudinary.com/abcdzyz/image/upload/v1655182549/ASM-angular/phudo2_ghibjj.jpg",
       "createAt": 2022,
       "categoryProjectId": "1",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
@@ -74,7 +71,7 @@
     },
     {
       "name": "Vibrant Portraits",
-      "image": "http://res.cloudinary.com/assignmentjs/image/upload/v1655138011/angular/why3qvk1p4anj1cn0ijp.jpg",
+      "image": "https://res.cloudinary.com/abcdzyz/image/upload/v1655182548/ASM-angular/anh2_kvuwo4.jpg",
       "createAt": 2022,
       "categoryProjectId": "1",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor",
@@ -83,7 +80,7 @@
     },
     {
       "name": "36 Days of Malayalam type",
-      "image": "http://res.cloudinary.com/assignmentjs/image/upload/v1655138061/angular/sk8iw659kqibytos1sw6.jpg",
+      "image": "https://res.cloudinary.com/abcdzyz/image/upload/v1655182549/ASM-angular/phudo1_z8iyzz.jpg",
       "createAt": 2022,
       "categoryProjectId": "2",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor",
@@ -92,7 +89,7 @@
     },
     {
       "name": "Components",
-      "image": "http://res.cloudinary.com/assignmentjs/image/upload/v1655138098/angular/austywzpy1lwlglofarx.png",
+      "image": "https://res.cloudinary.com/abcdzyz/image/upload/v1655182549/ASM-angular/phudo3_camvhl.jpg",
       "createAt": 2022,
       "categoryProjectId": "1",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat",
@@ -101,7 +98,7 @@
     },
     {
       "name": "Designing Landing pages",
-      "image": "http://res.cloudinary.com/assignmentjs/image/upload/v1655138131/angular/ubwbooudrm26ddggzyed.png",
+      "image": "https://res.cloudinary.com/abcdzyz/image/upload/v1655182548/ASM-angular/anh1_da86x4.jpg",
       "createAt": 2022,
       "categoryProjectId": "1",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
@@ -111,25 +108,28 @@
   ],
   "categorypost": [
     {
-      "name": "Node JS",
-      "id": 1
+      "name": "Danh mục 1",
+      "id": 1,
+      "post": []
     },
     {
-      "name": "HTML5",
-      "id": 2
+      "name": "Danh mục 2",
+      "id": 2,
+      "post": []
     }
   ],
   "categoryproject": [
     {
-      "name": "Node JS",
-      "id": 1
+      "name": "Danh mục 1",
+      "id": 1,
+      "project": []
     },
     {
-      "name": "HTML5",
-      "id": 2
+      "name": "Danh mục 2",
+      "id": 2,
+      "project": []
     }
   ],
- 
   "blogs": [
     {
       "title": "Making a design system from scratch",
@@ -166,10 +166,6 @@
       "id": 2
     }
   ],
-
-
-
-
   "works": [
     {
       "name": "Designing Dashboards",
@@ -217,7 +213,6 @@
       "id": 5
     }
   ],
-
   "categories": [
     {
       "name": "Node JS",
