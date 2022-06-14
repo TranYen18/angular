@@ -23,14 +23,24 @@
   ],
   "users": [
     {
-      "email": "admin@gmail.com",
-      "password": "$2a$10$KzuGxgeMC4JV8IQTx9lRfeX1.uZmLFN.7NfrasHh.GqKl7CKNeo6q",
-      "name": "tranyen",
+      "email": "tranyen18012001@gmail.com",
+      "password": "$2a$10$sUrZ/437q2oUCfvzKGoW3uvhgDO02iGEt71F67yNBtu2Qts07PX9K",
+      "name": "Tran Yen ",
       "position": "Sinh viên",
       "about": "TKW",
       "cv": "",
-      "img": "",
-      "id": 2
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1655184225/angular/gnw5dvfwv4pa55r77edi.png",
+      "id": 3
+    },
+    {
+      "email": "admin123@gmail.com",
+      "password": "$2a$10$lDW2HFomFpAlEE4ZQByrkeN0MWkVIQUfzkCjaYInQyHO.sDwyH0pe",
+      "name": "Tranyen",
+      "position": "Sinh viên",
+      "about": "UDPM",
+      "cv": "",
+      "img": "http://res.cloudinary.com/assignmentjs/image/upload/v1655185389/angular/jxpcmrz5n19sa120bbyc.jpg",
+      "id": 4
     }
   ],
   "posts": [
@@ -72,7 +82,7 @@
       "name": "Designing Dashboards",
       "image": "https://res.cloudinary.com/abcdzyz/image/upload/v1655182549/ASM-angular/phudo2_ghibjj.jpg",
       "createAt": 2022,
-      "categoryProjectId": "1",
+      "categoryProjectId": "2",
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       "id": 1
@@ -112,28 +122,46 @@
       "short_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
       "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
       "id": 5
+    },
+    {
+      "name": "Trần Thị Yến",
+      "image": "http://res.cloudinary.com/assignmentjs/image/upload/v1655185640/angular/nf1emayauxvb0rvd3van.jpg",
+      "createAt": 2022,
+      "categoryProjectId": "2",
+      "short_desc": "Bán hàng online",
+      "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "id": 6
+    },
+    {
+      "name": "Product C update",
+      "image": "http://res.cloudinary.com/assignmentjs/image/upload/v1655186251/angular/hjoq7oznixgwg2jhuepg.jpg",
+      "createAt": 2022,
+      "categoryProjectId": "1",
+      "short_desc": "Bán hàng online",
+      "description": "dsgfjtfy",
+      "id": 7
     }
   ],
   "categorypost": [
     {
-      "name": "Danh mục 1",
+      "name": "Node JS",
       "id": 1,
       "post": []
     },
     {
-      "name": "Danh mục 2",
+      "name": "HTML5",
       "id": 2,
       "post": []
     }
   ],
   "categoryproject": [
     {
-      "name": "Danh mục 1",
+      "name": "Node JS",
       "id": 1,
       "project": []
     },
     {
-      "name": "Danh mục 2",
+      "name": "HTML5",
       "id": 2,
       "project": []
     }
@@ -223,11 +251,11 @@
   ],
   "categories": [
     {
-      "name": "Node JS",
+      "name": "Fpoly",
       "id": 1
     },
     {
-      "name": "HTML5",
+      "name": "Btech",
       "id": 2
     }
   ]
