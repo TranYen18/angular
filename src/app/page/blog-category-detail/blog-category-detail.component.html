@@ -1,0 +1,38 @@
+<main>
+    <div class="title">
+        <div class="container">
+            <h2>Category "{{ cateName?.name }}"</h2>
+        </div>
+
+    </div>
+    <section class="rectent_posts">
+        <div class="container">
+            <div class="rectent_posts__row-item-rectent">
+                <div class="item_recent" *ngFor="let category of categoryDetail">
+                    <div class="item_rectent__title">
+                        <h2>{{ category.title }}</h2>
+                    </div>
+                    <div class="item_rectent__row-date-category">
+                        <div class="date">
+                            <span>{{ category.createAt }}</span>
+                        </div>
+                        <div class="category">
+                            <span>{{ category.categoryBlog?.name }}</span>
+                        </div>
+                    </div>
+                    <div class="item_rectent__description">
+                        <p>{{ category.short_desc }}</p>
+                    </div>
+                </div>
+
+
+    
+
+
+                
+            </div>
+        </div>
+    </section>
+</main>
+© 2022 GitHub, Inc.
+Terms
